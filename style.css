@@ -1,0 +1,222 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a.signin {
+    margin-right: 27px;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    background-color: white; 
+    box-sizing: border-box;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+
+header{
+    top: 0;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 15px rgba(0,0,0,15%);
+    z-index: 1022;
+    background-color: #fff;
+}
+
+
+.container {
+    height: 100%;
+}
+
+header .row {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-top: 104px;
+}
+
+.search_food{
+    width: 100%;
+}
+
+.search .row{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+form.search_food input {
+    padding-top: 14px;
+    width: 100%;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #757575;
+    font: 16px Roboto, sans-serif;
+}
+
+.foodcards {
+    margin-top: 56px;
+}
+
+.foodcards .rest {
+    font-size: 22px;
+}
+
+.foodcards .row p {
+    margin: 0;
+}
+
+.foodcards .row {
+    padding-bottom: 64px;
+}
+
+.foodcards img {
+    margin-bottom: 16px;
+}
+
+.card {
+    margin-bottom: 36px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.namerest{
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.cost {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.time {
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+
+footer {
+    background-color: #262626;
+}
+
+.footlogo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.hrfoot{
+    margin-top: 0;
+    size: 1px;
+    opacity: 0.4;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.selectlang {
+    width: 100%;
+    height: 40px;
+    background-color: #3B3B3B;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+footer select {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    border: none;
+    width: 90%;
+    outline: none;
+    background: url("images/arrow.png") 96% / 7% no-repeat #3B3B3B;
+    appearance: none;
+}
+
+footer .world {
+    margin-left: 16px;
+    margin-right: 16px; 
+}
+
+.social p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.social a{
+    margin-right: 12px;
+}
+
+.refs {
+    padding-bottom: 30px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second a{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+}
+
+.apps a{
+    margin: 8px 20px 40px 20px;
+}
+
+.foot {
+    padding-bottom: 16px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.foot p {
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.foot a {
+    display: block;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.refhome {
+    position: absolute;
+    top: 0;
+}
+
+.topbutton {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+}
