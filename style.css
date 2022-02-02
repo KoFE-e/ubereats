@@ -84,10 +84,6 @@ form.search_food input {
     padding-bottom: 64px;
 }
 
-.foodcards img {
-    margin-bottom: 16px;
-}
-
 .card {
     margin-bottom: 36px;
 }
@@ -96,10 +92,23 @@ form.search_food input {
     width: 100%;
 }
 
+.card a{
+    display: block;
+}
+
+.imagecard {
+    margin-bottom: 16px;
+}
+
 .namerest{
     font-size: 16px;
     line-height: 24px;
     color: #1D1D1D;
+    text-decoration: none;
+}
+
+.namerest:hover{
+    text-decoration: underline;
 }
 
 .cost {
@@ -219,4 +228,172 @@ footer .world {
     position: fixed;
     right: 16px;
     bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .basket {
+        display: none;
+    }
+    a.signin {
+        margin-right: 0;
+    }
+}
+
+.hero {
+    margin-top: 72px;
+    background-image: url("images/pushkin.png");
+    background-size: cover;
+}
+
+.herocard {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.pushkinname {
+    line-height: 42px;
+    margin-left: 3rem;
+    font-size: 36px;
+    margin-top: 38px;
+    margin-bottom: 54px;
+}
+
+.bottomcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 38px;
+}
+
+.timebound {
+    font-size: 13px;
+    background-color: #262626;
+    color: #FFFFFF;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0,0,0,15%);
+}
+
+.menuitem {
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin: 32px 40px 29px 0;
+}
+
+.menuitem:hover {
+    color: #327430;
+}
+
+.listoffood {
+    padding-top: 56px;
+}
+
+.zakus {
+    margin-bottom: 32px;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.foodcard {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    margin-bottom: 49px;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+}
+
+.foodname{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    line-height: 24px;
+}
+
+.description {
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 0;
+}
+
+.costfood {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listoffood .container {
+    padding: 0;
+}
+
+.listoffood hr {
+    margin-top: 0;
+    margin-bottom: 43px;
+    border: 1px solid #757575;
+    background-color:#757575;
+    width: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .herocard {
+        position: relative;
+        margin: 0;
+        top: 131px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,15%);
+    }
+    .hero .row {
+        margin: 0;
+    }
+    .pushkinname {
+        margin-bottom: 40px;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+    .bottomcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    .menu {
+        display: none;
+    }
+    .zakus {
+        margin-top: 112px;
+        margin-bottom: 12px;
+        line-height: 34px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .foodcard {
+        border: 0;
+        border-bottom: 1px solid #D8D8D8;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .listoffood hr {
+        display: none;
+    }
 }
